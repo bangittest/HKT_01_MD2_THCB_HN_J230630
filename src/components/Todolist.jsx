@@ -103,7 +103,7 @@ export default function Todos() {
                                 checked={e.done}
                                 onChange={() => handleOnchangeChex(e.id)}
                               />
-                              <span style={e.done ? { textDecoration: "line-through" } : { textDecoration: "none" }}>{e.todo}</span>
+                              <span style={e.done ? { textDecoration: "line-through"  ,color:"#00000044" } : { textDecoration: "none" }}>{e.todo}</span>
                             </div>
                             <div>
                               {editingTodo !== e.id && (
